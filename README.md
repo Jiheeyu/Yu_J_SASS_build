@@ -1,6 +1,6 @@
 ![SASS build](images/sass_logo.png "SASS logo")
 
-># Jiheui Yu's SASS build Project
+># Jiheui Yu's SASS build Project & Dynamic AJAX
 
 >> This is about *SASS build project*. Here are all about this project.
  Rewrite some of the CSS for the course home page (supplied) as SASS. 
