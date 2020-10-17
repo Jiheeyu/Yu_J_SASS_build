@@ -1,11 +1,12 @@
 (() => {
 
-    //make an AJAX request using the Fetch API 
+    //make an AJAX request using the Fetch API
+    
     fetch('./data/classData.json')
-    .then(res => res.json())
+    .then(res => res.json()) 
     .then(data => {
 
-        // debugger;
+        //debugger;
         console.log(data);
 
         //handleDeta
@@ -42,11 +43,11 @@
     })
 
     .catch((err) => {
+        //debugger;
         console.log(err);
         
         const profText = document.querySelector('.profPanelText');
         profText.textContent = `ERROR : something went wrong`
-           
     })
 
 })();
